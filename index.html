@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="mx-auto">
+                <h1 class="text-center pr-5 pl-5 pt-2 pb-2 mb-3">Data Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number" id="gbInput" placeholder="Enter data in Gigabytes" class="p-2 form-control">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-info p-3 mb-2">
+                        <div class="card-block">
+                            <h4>Kilobyte</h4>
+                            <div id="kbOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-warning p-3 mb-2">
+                        <div class="card-block">
+                            <h4>Megabyte</h4>
+                            <div id="mbOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-block p-3 mb-2">
+                            <h4>Terabyte</h4>
+                            <div id="tbOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="card-block p-3 mb-2">
+                            <h4>Petabyte</h4>
+                            <div id="pbOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p class="lead text-white">Also it's about:</p>
+        <hr class="bg-white">
+        <div id="output2">
+            <div class="row">
+
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>Kilobits</small>
+                        <div id="kBOutput"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>Megabits</small>
+                        <div id="mBOutput"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>Gigabits</small>
+                        <div id="gBOutput"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>Terabits</small>
+                        <div id="tBOutput"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>Floppy</small>
+                        <div id="floppy"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card bg-dark p-3 mb-2">
+                        <small>DVD</small>
+                        <div id="dvd"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-right align-content-bottom">
+        <div class="container">Created By Mbogo Kennedy</div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
